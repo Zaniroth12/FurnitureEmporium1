@@ -1,6 +1,10 @@
 p {
     background-color: #B3ADFF;
+    background-size: auto;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-wrap: wrap;
+    border-radius: 8px
+    font-size: 17pt;
 }
 
 body{ 
@@ -8,45 +12,30 @@ body{
     padding: 1rem;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+p {
+    border: black;
+
 }
 
-.product {
-    background: white;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    width: 50ch;
+h3 {
+    font-style: italic;
 }
 
-.product .name, 
-.product .description,
-.product .price{
-    margin-bottom: 0.5rem;
+article {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 0px 690px 80px 0px;
+    padding: 5px 5px 5px 5px;
+    text-wrap: wrap;
+    padding: 20px 10px 20px 10px;
+    background-color: #DEDEDE;
 }
 
-.product .price {
-    font-family: arial;
-    font-size: 2rem;
-    color: blue;
-}
-
-.product .price s {
-    font-size: 1rem;
-    color: #6a6a6a
-}
-
-.product .add_to_cart {
-    background: #3f7d42;
-    color: white;
-
-    border: 0;
-    border-radius: 0.5rem;
-    padding: 1.5ch;
-    width: 100%;
+article .price {
+    background-color: #eee;
+    border: 4px solid #5d598e;
+    border-radius: 7.12344564587637px;
+    border
 }
 
 .product .add_to_cart:hover {
