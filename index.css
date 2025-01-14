@@ -37,8 +37,3 @@ article .price {
     border-radius: 7.12344564587637px;
     border
 }
-
-.product .add_to_cart:hover {
-    cursor: pointer;
-    background: #296957;
-}
